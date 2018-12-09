@@ -28,7 +28,7 @@ body{
 #my-Modal {
   display: none;
   position: fixed;
-  margin-top:-567px;
+  margin-top:-38%;
   z-index: 1;
   padding-top: 100px;
   left: 0;
