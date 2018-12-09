@@ -1,0 +1,142 @@
+.div-1{
+  display: inline-block;
+  background-color: #6c77d7;
+  width: 90%;
+  border-radius: 70px;
+}
+body{
+  background-color: #9e9def;
+  text-align: center;
+}
+
+.myImg {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.myImg:hover {
+  opacity: 0.7;
+}
+
+#my-Modal {
+  display: none;
+  position: fixed;
+  margin-top:-567px;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes zoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .modal-content { width: 100%; }
+}
+
+.switch-one{
+  position: absolute;
+  top: 31%;
+  /*right: 35px;*/
+  left: 21%;
+  color: #7aaaf1;
+  font-size: 100px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.switch-two{
+  position: absolute;
+  top: 31%;
+  right: 21%;
+  /*left: 15px;*/
+  color: #7aaaf1;
+  font-size: 100px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.switch-one:hover, .switch-one:focus {
+  color: #3972ab;
+  text-decoration: none;
+  cursor: pointer;
+}
+.switch-two:hover, .switch-two:focus {
+  color: #3972ab;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+.number{
+  position: absolute;
+  top: 5%;
+  /*right: 690px;*/
+  left: 6%;
+  color: #7aaaf1;
+  font-size: 50px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.headline{
+  position: relative;
+
+}
+.headline h1, h2{
+  position: absolute;
+  margin-top: 21%;
+  margin-left: 34%;
+  /*text-align: center;*/
+  font-size: 2vw;
+  color: rgba(21, 3, 149, 0.91);
+
+}
+.headline img{
+  width: 70%;
+  margin-top: -35px;
+  /*opacity: 0.75;*/
+
+}

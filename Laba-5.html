@@ -1,0 +1,39 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSONP</title>
+<head>
+  <script src="api.js"></script>
+  <link rel="stylesheet" href="Laba-5.css">
+</head>
+<body>
+
+<div class="div-1">
+  <div class="headline">
+
+    <h1> WELCOME TO THE GALLERY </h1><br><br><br>
+    <h2>CLICK OM THE IMAGE TO VIEW</h2>
+
+  <img src="3df83c5s-960.jpg"><br><br>
+  </div>
+  <div id="my-Modal">
+
+    <span class="close">&times;</span>
+    <span class="switch-one" onclick="prevImage()">&lt;</span>
+    <span class="switch-two" onclick="nextImage()">&gt;</span>
+    <img class="modal-content" id="img01">
+    <span class="number">1/50</span>
+  </div>
+</div>
+
+
+
+
+<script>
+  scriptRequest("https://api.vk.com/method/photos.get?owner_id=-37512548&album_id=164359161&access_token=b90de1bdb90de1bdb90de1bdf8b96aa58abb90db90de1bde50e1574bb91f26336ad6d70&v=5.92&callback=callbackFunc", ok, fail); // Загружен
+</script>
+<script src="ModalWindow.js"></script>
+<br> &#9829; Все права защищены 2018 &#9829;
+</body>
+</html>
