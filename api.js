@@ -57,7 +57,6 @@ function ok(data) {
     container.appendChild(content);
   }
 }
-
 function fail(url) {
   alert('Ошибка при запросе ' + url);
 }
